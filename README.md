@@ -10,6 +10,8 @@ To use this add-on with openFrameworks:
 
 The `ofxMenuBuilder` class is only defined in Objective-C for macOS targets.
 
+A usage overview, 'ofxMenuBuilderDemo', is included as an Xcode project.
+
 ## Usage
 
 Set `ofApp` to be a subclass of `MenuResponder`, which is defined in 'MenuResponder.h', and define the method `enact`, which will be called whenever a menu item is selected by the user.
